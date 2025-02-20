@@ -4,7 +4,7 @@ set -e  # Остановит скрипт при ошибке
 set -x  # Показывает выполняемые команды
 
 # Установка зависимостей
-sudo apt update && sudo apt install -y build-essential pkg-config libssl-dev git-all protobuf-compiler unzip
+sudo apt update && sudo apt install -y build-essential pkg-config libssl-dev git-all protobuf-compiler unzip screen
 
 # Установка Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
