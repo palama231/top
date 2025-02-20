@@ -1,8 +1,4 @@
 #!/bin/bash
-
-sudo apt update && sudo apt upgrade -y
-echo "Пауза 6 секунды... после sudo apt update && sudo apt upgrade"
-sleep 6
 sudo apt install build-essential pkg-config libssl-dev git-all -y
 echo "Пауза 6 секунды... после sudo apt install build-essential pkg-config libssl-dev git-all"
 sleep 6
@@ -44,5 +40,3 @@ echo "Пауза 6 секунды...apt install screen"
 sleep 6
 screen -S nexus
 echo "Пауза 6 секунды...screen -S nexus"
-sleep 6
-curl https://cli.nexus.xyz/ | sh
