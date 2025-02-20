@@ -1,0 +1,2 @@
+var int; 
+int = setInterval(function(){if(document.querySelector('[alt*="Circle Image"][class*="object-cover brightness-0 invert"]')) document.querySelector('[alt*="Circle Image"][class*="object-cover brightness-0 invert"]').click(); }, 5000);
